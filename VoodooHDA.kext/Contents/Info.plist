@@ -71,38 +71,85 @@
 			</dict>
 			<key>NodesToPatch</key>
 			<array>
+				<!-- Back Green output -->
 				<dict>
 					<key>Codec</key>
 					<integer>0</integer>
 					<key>Node</key>
 					<integer>36</integer>
 					<key>Config</key>
-					<string>0x02014010</string>
+					<string>0x01014010</string>
 				</dict>	
+				<!-- Front Green output -->
 				<dict>
 					<key>Codec</key>
 					<integer>0</integer>
 					<key>Node</key>
 					<integer>40</integer>
 					<key>Config</key>
-					<string>0x0101401f</string>
+					<string>0x0201401f</string>
 				</dict>	
+
+				<!-- Front Mic input -->
 				<dict>
 					<key>Codec</key>
 					<integer>0</integer>
 					<key>Node</key>
 					<integer>41</integer>
 					<key>Config</key>
-					<string>0x02a19050</string>
+					<string>0x02a19037</string>
 				</dict>	
+				<!-- Back Mic input -->
 				<dict>
 					<key>Codec</key>
 					<integer>0</integer>
 					<key>Node</key>
 					<integer>43</integer>
 					<key>Config</key>
-					<string>0x02a19050</string>
+					<string>0x01a19036</string>
+				</dict>	
+
+				<!-- Disable unnecessary inputs -->
+				<dict>
+					<key>Codec</key>
+					<integer>0</integer>
+					<key>Node</key>
+					<integer>37</integer>
+					<key>Enable</key>
+					<integer>0</integer>
 				</dict>					
+				<dict>
+					<key>Codec</key>
+					<integer>0</integer>
+					<key>Node</key>
+					<integer>38</integer>
+					<key>Enable</key>
+					<integer>0</integer>
+				</dict>	
+				<dict>
+					<key>Codec</key>
+					<integer>0</integer>
+					<key>Node</key>
+					<integer>39</integer>
+					<key>Enable</key>
+					<integer>0</integer>
+				</dict>	
+				<dict>
+					<key>Codec</key>
+					<integer>0</integer>
+					<key>Node</key>
+					<integer>45</integer>
+					<key>Enable</key>
+					<integer>0</integer>
+				</dict>	
+				<dict>
+					<key>Codec</key>
+					<integer>0</integer>
+					<key>Node</key>
+					<integer>46</integer>
+					<key>Enable</key>
+					<integer>0</integer>
+				</dict>	
 			</array>
 			
 			<key>Noise</key>
